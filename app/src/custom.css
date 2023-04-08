@@ -1,0 +1,18 @@
+.cocktail-card {
+    height: 6rem;
+    color: white;
+    background-image: url("assets/mai-tai.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.cocktail-card > span {
+    font-size: xx-large;
+    position: absolute;
+    bottom: 0;
+    left: 0.5rem;
+}
